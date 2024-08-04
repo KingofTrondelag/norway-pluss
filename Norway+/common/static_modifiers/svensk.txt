@@ -1,0 +1,10 @@
+﻿svensk = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+
+
+			country_authority_mult = -0.25
+			country_bureaucracy_mult = -0.25
+			state_tax_waste_add = 0.2
+			state_pollution_reduction_health_mult = 0.5
+
+			}

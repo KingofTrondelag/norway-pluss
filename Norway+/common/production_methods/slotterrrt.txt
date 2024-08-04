@@ -1,0 +1,32 @@
+﻿
+
+pm_default_slottet = {
+    texture = "gfx/interface/icons/building_icons/slottet.dds"
+
+
+    country_modifiers = {
+        workforce_scaled = {
+
+            interest_group_ig_landowners_pol_str_mult = 0.1
+            country_influence_add = 75
+            country_authority_add = 75
+			country_minting_add = 250
+
+
+        }
+    }
+
+    building_modifiers = {
+
+        workforce_scaled = {
+
+            goods_input_iron_add = 15
+            goods_input_fish_add = 25
+
+        }
+
+        level_scaled = {
+            building_employment_clergymen_add = 100
+        }
+    }
+}

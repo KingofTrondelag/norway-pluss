@@ -1,0 +1,29 @@
+
+
+pm_default_eidsvoll = {
+    texture = "gfx/interface/icons/building_icons/eidsvoll.dds"
+
+
+    country_modifiers = {
+        workforce_scaled = {
+
+            country_legitimacy_headofstate_add = 15
+            country_agitator_slots_add = 1
+
+        }
+    }
+
+    building_modifiers = {
+
+        workforce_scaled = {
+
+            goods_input_iron_add = 10
+            goods_input_fish_add = 15
+
+        }
+
+        level_scaled = {
+            building_employment_clergymen_add = 150
+        }
+    }
+}

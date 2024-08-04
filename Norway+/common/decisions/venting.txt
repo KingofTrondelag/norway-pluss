@@ -1,0 +1,26 @@
+﻿The_kings_yes = {
+    is_shown = {
+        exists = c:NOR
+        c:NOR = THIS
+        NOT = { has_modifier = venting }
+    }
+
+    possible = { 
+        enacting_any_law = yes
+		country_has_primary_culture = cu:norwegian
+    }
+
+    when_taken = {
+        add_modifier = { 
+            name = venting
+            days = 1460
+			is_decaying = yes
+        }	
+    }
+
+    ai_chance = {
+        base = 0.1
+    }
+}
+	
+	

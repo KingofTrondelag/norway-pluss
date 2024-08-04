@@ -1,0 +1,30 @@
+﻿
+
+pm_default_nidarosdomen = {
+    texture = "gfx/interface/icons/building_icons/kirke.dds"
+
+
+    country_modifiers = {
+        workforce_scaled = {
+
+            interest_group_ig_devout_pol_str_mult = 0.125
+            country_influence_add = 75
+            country_authority_add = 65
+			country_minting_add = 650
+
+
+        }
+    }
+
+    building_modifiers = {
+
+        workforce_scaled = {
+
+            goods_input_fish_add = 60
+        }
+
+        level_scaled = {
+            building_employment_clergymen_add = 500
+        }
+    }
+}

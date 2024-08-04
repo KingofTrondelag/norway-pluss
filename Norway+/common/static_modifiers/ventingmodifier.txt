@@ -1,0 +1,8 @@
+﻿venting = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+
+
+            country_law_enactment_success_add = 0.25
+			country_legitimacy_base_add = -15
+
+			}

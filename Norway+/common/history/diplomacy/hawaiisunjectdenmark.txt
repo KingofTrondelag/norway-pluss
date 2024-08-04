@@ -1,0 +1,28 @@
+﻿DIPLOMACY = {
+	c:DEN ?= {
+		create_diplomatic_pact = {
+			country = c:HAW
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:OLD
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:BRE
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:HAM
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:LUB
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:MEC
+			type = protectorate
+		}
+	}
+}

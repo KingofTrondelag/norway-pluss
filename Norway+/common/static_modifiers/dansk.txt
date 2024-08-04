@@ -1,0 +1,14 @@
+﻿Øresundstolden = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+
+            country_minting_mult = 0.2
+			country_minting_add = 1000
+
+	}
+	Hawaii = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+
+			battle_defense_owned_province_mult  = 666.66
+			battle_offense_owned_province_mult  = 666.66
+
+	}

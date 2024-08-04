@@ -1,0 +1,9 @@
+﻿NOR = {
+	color = "roman_red"
+
+	possible = {
+		exists = c:NOR
+		THIS = c:NOR
+		has_law = law_type:law_monarchy
+	}
+}

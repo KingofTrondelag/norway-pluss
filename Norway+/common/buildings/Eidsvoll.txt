@@ -1,0 +1,25 @@
+﻿eidsvollbyggningen = {
+    building_group = bg_monuments
+    texture = "gfx/interface/icons/building_icons/eidsvoll.dds"
+    expandable = no
+    buildable = yes
+    downsizeable = no
+    unique = yes
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 4
+	}
+
+    production_method_groups = {
+        pmg_base_eidsvoll
+    }
+
+    possible = {
+
+            state_region =s:STATE_EASTERN_NORWAY
+        
+    }
+
+    required_construction = construction_cost_monument
+}

@@ -1,0 +1,108 @@
+﻿POWER_BLOCS = {
+	c:SWE ?= {
+        create_power_bloc = {
+            name = Svenskene
+            
+            map_color = { 252 185 61 }
+            
+            founding_date = 1814.1.1
+            
+			identity = identity_military_treaty_organization
+			principle = principle_defensive_cooperation_1
+            
+            ## member = c:
+
+        }
+		
+			power_bloc = {
+				add_principle = principle_external_trade_1
+		}
+    }
+	
+	c:DEN ?= {
+        create_power_bloc = {
+            name = DeUtenHåp
+            
+            map_color = { 0 200 100 }
+            
+            founding_date = 1814.1.1
+            
+			identity = identity_military_treaty_organization
+			principle = principle_defensive_cooperation_1
+			
+			member = c:HAW
+			member = c:OLD
+			member = c:MEC
+			member = c:LUB
+			member = c:HAM
+			member = c:BRE
+
+
+        }
+			power_bloc = {
+				add_principle = principle_external_trade_1
+		}	
+    }
+	
+		c:USA ?= {
+        create_power_bloc = {
+            name = Vinlandians
+            
+            map_color = { 200 100 0 }
+            
+            founding_date = 1784.1.1
+            
+			identity = identity_military_treaty_organization
+			principle = principle_defensive_cooperation_1
+        }
+    }
+	
+			c:BEL ?= {
+        create_power_bloc = {
+            name = KongoLovers
+            
+            map_color = { 200 100 0 }
+            
+            founding_date = 1684.1.1
+            
+			identity = identity_military_treaty_organization
+			principle = principle_defensive_cooperation_1
+			
+			member = c:MAD
+			member = c:KON
+        }
+    }
+
+			c:SPA ?= {
+        create_power_bloc = {
+            name = OldSpanish
+            
+            map_color = { 200 100 0 }
+            
+            founding_date = 1784.1.1
+            
+			identity = identity_military_treaty_organization
+			principle = principle_defensive_cooperation_1
+			
+			member = c:POR
+			member = c:SUL
+			member = c:MEX
+        }
+    }
+	
+				c:FRA ?= {
+        create_power_bloc = {
+            name = SlaveLovers
+            
+            map_color = { 300 100 200 }
+            
+            founding_date = 1784.1.1
+            
+			identity = identity_military_treaty_organization
+			principle = principle_defensive_cooperation_1
+			
+			member = c:NEP
+
+        }
+    }
+}
